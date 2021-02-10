@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Kongress';
+    src: url('../fonts/Kongress-DemiBold.woff2') format('woff2'),
+        url('../fonts/Kongress-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kongress Book';
+    src: url('../fonts/Kongress-BookItalic.woff2') format('woff2'),
+        url('../fonts/Kongress-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body{
+	line-height: 1;
+}
+/* --------------- */
+body{
+	height: 100%;
+	background: url('../img/luna.jpg') 70px 10px no-repeat, url('../fonts/../img/pat3.jpg') 0 0 repeat;
+	padding: 0px 50px;
+
+
+}
+.container {
+	max-width: 1200px;
+	margin:0px auto;
+	overflow: hidden;
+	
+}
+/* ============================Header===================================================== */
+
+.menu {
+	margin: 50px 0px 100px 0px ;
+}
+.menu-list{
+	text-align: right;
+	font-family: 'Kongress Book';
+	font-weight: 400;
+	font-style: italic;
+
+}
+.menu-list li{
+	display: inline-block;
+	margin: 0px 20px 10px 0px;
+	padding:10px;
+	min-height: 40px;
+	background:url('../img/icons/2.png') 10% 50% no-repeat, white;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px 3px rgb(228, 221, 221);
+
+}
+.menu-list span{
+	padding: 0px 0px 0px 35px;
+}
+.menu-link {
+	color:black;
+}
+/* ============================================================================================ */
+.title {
+	font-family:"Lato";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 35px;
+	text-shadow: 1px 1px 3px white;
+	max-width: 700px;
+	margin: 50px auto;
+	text-align: center;
+	padding: 35px;
+	color: rgb(218, 228, 228);
+	border-radius: 50%;
+	overflow: hidden;
+background: rgb(76,76,76); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+}
+.text{
+display: block;
+font-family:"Lato";	
+font-weight: 400;
+font-style: normal;
+font-size: 25px;
+text-shadow: 2px 2px 1px black, 2px 2px 1px white;
+max-width: 1100px;
+margin: 20px auto;
+text-align: justify;
+padding: 0px 20px 0px 20px;
+color: #fff;
+line-height: 135%;
+}
+
+
+/* ====================================Impotant==================================================== */
+
+.important {
+margin: 0px 0px 50px 0px;
+
+}
+.impotant-title {
+	font-size: 70px;
+	border-radius:10px;
+	max-width:100%;
+	padding: 25px;
+background: transparent;
+line-height: 120%;
+box-shadow: 1px 1px 3px 3px white, -1px -1px 3px 3px white, inset -1px -1px 3px 3px white,inset 1px 1px 3px 3px white;
+	
+}
+
+.impotant-text {
+	background: url('../img/ор.jpg') 0 25%/cover no-repeat;
+	border-bottom: 1px solid gray;
+}
+
+/* =========================================================Gallactica================================== */
+.gallactica{
+	margin: 0px 0px 70px 0px;
+	padding: 20px 0px 0px 0px;
+	background-color: rgba(10, 10, 10, 0.767);
+	
+}
+
+.gallactica-image{
+	margin: 0px 20px 0px 0px;
+	text-align: center;
+}
+.gallactica-image1 {
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	background: url('../img/nasa-photos-07.jpg') 50% 50%/cover no-repeat fixed;
+
+}
+.gallactica-image2 {
+display: inline-block;
+width: 300px;
+height: 400px;
+background: url('../img/nasa-photos-11.jpg') 0 0/auto 100% no-repeat;
+
+}
+.gallactica-image3 {
+display: inline-block;
+width: 300px;
+height: 400px;
+background: url('../img/nasa-photos-25.jpg') 0 0/100% 100% no-repeat fixed;
+
+}
+
+/* /* ================================================Nebo======================================== */
+.nebo {
+margin: 0px 0px 70px 0px;
+padding: 20px 0px 10px 0px;
+background: url('../img/fon.jpg') 0 0/100% 100% repeat;
+}
+.nebo-title{
+background: rgb(203,96,179); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(203,96,179,1) 11%, rgba(168,0,119,1) 30%, rgba(193,70,161,1) 45%, rgba(193,70,161,1) 45%, rgba(203,96,179,1) 49%, rgba(203,96,179,1) 49%, rgba(168,0,119,1) 65%, rgba(168,0,119,1) 66%, rgba(203,96,179,1) 83%, rgba(203,96,179,1) 83%, rgba(203,96,179,1) 90%, rgba(219,54,164,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(203,96,179,1) 11%,rgba(168,0,119,1) 30%,rgba(193,70,161,1) 45%,rgba(193,70,161,1) 45%,rgba(203,96,179,1) 49%,rgba(203,96,179,1) 49%,rgba(168,0,119,1) 65%,rgba(168,0,119,1) 66%,rgba(203,96,179,1) 83%,rgba(203,96,179,1) 83%,rgba(203,96,179,1) 90%,rgba(219,54,164,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(203,96,179,1) 11%,rgba(168,0,119,1) 30%,rgba(193,70,161,1) 45%,rgba(193,70,161,1) 45%,rgba(203,96,179,1) 49%,rgba(203,96,179,1) 49%,rgba(168,0,119,1) 65%,rgba(168,0,119,1) 66%,rgba(203,96,179,1) 83%,rgba(203,96,179,1) 83%,rgba(203,96,179,1) 90%,rgba(219,54,164,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.snoska span{
+	padding: 20px 20px 20px 70px;
+	line-height: 135%;
+	display: inline-block;
+	text-align:left;
+}
+.snoska {
+	font-family: 'Kongress Book';
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	color: rgb(44, 41, 41);
+	min-height: 70px;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 0px 30px;
+background: url('../img/icons/3.png') 10px 50% no-repeat,rgb(238, 228, 228);
+margin: 0px 20px 30px 20px;
+}
+
+/* ====================================Kosmos================================================= */
+.kosmos {
+	background-color: rgba(3, 3, 3, 0.938);
+	margin: 0px 0px 70px 0px;
+	padding: 20px 0px 0px 0px;
+}
+
+/* =========================================Zvezda===============================================*/
+.zvezda {
+	margin: 0px 0px 70px 0px;
+	padding: 20px 0px 0px 0px;
+	background: url('../img/solnce.jpg') 0 0/100% auto no-repeat fixed;
+}
+
+/* ==========================================Teleskop============================================== */
+.teleskop {
+	margin: 0px 0px 70px 0px;
+	padding: 20px 0px 20px 0px;
+	background: url('../img/teleskop.jpg') 60% 0/cover no-repeat fixed;
+	box-shadow: inset 3px 3px 10px 10px black;
+}
+
+/* ============================================================================================= */
+
+.zyzn {
+	margin: 0px 0px 70px 0px;
+	padding: 20px 0px 0px 0px;
+	background:url('../img/pattern.jpg') 0 0/100px 100px repeat-y,url('../img/pattern.jpg') 0 0/100px 100px repeat-x,url('../img/pattern.jpg') 50% 50%/100px 100px repeat-x,url('../img/pattern.jpg') right 50%/100px 100px repeat-y,url('../img/pattern.jpg') right 100%/100px 100px repeat-x;
+}
+
+/* ===================================================ZYZN======================================= */
+.spiski {
+
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 20px 0px;
+}
+.spisok-one li {
+	font-family: 'Kongress Book';
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	color: rgb(44, 41, 41);
+	min-height: 70px;
+	max-width: 1200px;
+	margin: 10px auto;
+	padding: 10px;
+	line-height: 120%;
+	min-height: 80px;
+	background: url('../img/icons/4.png') 100% 50% no-repeat,url('../img/icons/5.png') 0 50% no-repeat, #fff;
+	padding: 20px 30px 20px 30px;
+	
+}
+.spisok-one>li>span {
+	display: block;
+	padding: 0px 10% 0px 10%;
+	max-width: 1000px;
+	margin: 0px auto;
+	text-align: justify;
+	
+}
+.spisok-one>li>span>span{
+	color: red;
+}
+/* ========================================================================================= */
+
+.btn {
+display:block;
+font-size: 50px;
+color: #fff;
+width: 100px;
+height: 100px;
+margin: 30px auto;
+background: url('../img/icons/7.png') 50% 50% no-repeat,  rgb(248, 248, 248);
+text-align: center;
+padding: 50px 50px 50px 50px;
+border-radius: 50%;
+box-shadow: 3px 3px 3px 3px rgb(94, 89, 89), -3px -3px 3px 3px rgb(94, 89, 89);
+}
+
